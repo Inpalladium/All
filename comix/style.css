@@ -1,0 +1,28 @@
+
+.block_2 {
+	margin-right: 130px;
+}
+.wrapper {
+display: flex;
+}
+
+.ggg {
+	position: absolute;
+	margin-left: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+.ttt {
+	position: absolute;
+	margin-left: 40px;
+	color: white;
+	font-size: 23px;
+}
+
+.vvv {
+	position: absolute;
+	margin-left: 70px;
+	color: white;
+	font-size: 23px;
+}
