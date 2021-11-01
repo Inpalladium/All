@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.wrapper {
+  margin-left: 50px;
+}
+
+.con {
+  margin-left: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+.stw {
+  position: relative;
+
+  bottom: 87px;
+  z-index: 1;
+}
+
+.w1 {
+  box-shadow: 2px 2px 17px 5px rgba(255, 255, 255, 0.2) inset;
+  border-radius: 73px 83px 5px 0px / 87px 58px 1px 0px;
+  width: 34px;
+  height: 300px;
+	background: linear-gradient(270deg, #319ff9, #00d05a);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 30s ease infinite;
+	-moz-animation: gradient 30s ease infinite;
+	-o-animation: gradient 30s ease infinite;
+	animation: gradient 30s ease infinite;
+}
+
+.w2 {
+  box-shadow: 2px 2px 17px 5px rgba(255, 255, 255, 0.2) inset;
+  width: 56px;
+  height: 300px;
+  background: linear-gradient(270deg, #319ff9, #00d05a);
+	background-size: 400% 400%;
+  border-radius: 75px 71px 5px 0px / 71px 68px 1px 0px;
+	-webkit-animation: gradient 30s ease infinite;
+	-moz-animation: gradient 30s ease infinite;
+	-o-animation: gradient 30s ease infinite;
+	animation: gradient 30s ease infinite;
+}
+
+.w3 {
+  box-shadow: 2px 2px 17px 5px rgba(255, 255, 255, 0.2) inset;
+  width: 34px;
+  height: 300px;
+  border-radius: 74px 105px 5px 0px / 62px 113px 1px 0px;
+  background: linear-gradient(270deg, #319ff9, #00d05a);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 30s ease infinite;
+	-moz-animation: gradient 30s ease infinite;
+	-o-animation: gradient 30s ease infinite;
+	animation: gradient 30s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes gradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes gradient { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+.line {
+  display: flex;
+  position: relative;
+  bottom: 112px;
+  z-index: 3;
+  margin-left: 1px;
+  
+}
+
+.top {
+
+  
+}
