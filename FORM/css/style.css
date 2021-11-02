@@ -122,6 +122,16 @@ nav a {
 
 }
 
+.p {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.p:hover {
+  display: none;
+
+}
+
 .jjj:active {
   color: inherit;
 }
