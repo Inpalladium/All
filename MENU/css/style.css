@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {background: #ffce84;}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  transition: .3s linear;
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+  
+}
+
+.topmenu > li a {
+  font-size: 15px;
+}
+
+.topmenu > li:first-child {
+  background-color: #fdbc5b;
+}
+
+.topmenu > li > a {  
+
+  padding: 20px 30px;
+  font-size: 12px;
+  color: #282828;
+  letter-spacing: 2px;
+}
+.topmenu > li > a.active, 
+
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+  color: inherit;
+  position: relative;
+  top: 2px;
+}
+.submenu {
+  top: 60px;
+  position: absolute;
+  z-index: 5;
+  min-width: 240px;
+  background: #ffce84;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .2s linear;  
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-bottom: 1px solid #ffffff;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .2s linear;
+}
+
+.submenu .submenu .submenu{
+  position: absolute;
+  left: 100%;
+  transition: .2s linear;
+}
+
+nav li li ul li:hover > .submenu .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+
+.fas {
+  font-size: 18px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.tile {
+  font-size: 60px;
+
+}
+
+.subtitle {
+  width: 800px;
+  margin-top: 20px;
+  text-align: center;
+}
