@@ -1,0 +1,73 @@
+.opp {
+        background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+        background-size: 400% 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: rainbow 20s ease infinite;
+        animation: rainbow 20s ease infinite;
+        font-size: 25px;
+        line-height: 25px;
+      }
+       
+      @-webkit-keyframes rainbow {
+        0% { background-position: 0% 50% }
+        50% { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+      }
+       
+      @keyframes rainbow {
+        0% { background-position: 0% 50% }
+        50% { background-position: 100% 50% }
+        100% { background-position: 0% 50% }
+}
+
+.uuuu {
+        display: flex;
+
+}
+
+body {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefefd+0,dce3c4+42,aebf76+100;Olive+3D+%231 */
+background: rgb(254,254,253); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(254,254,253,1) 0%, rgba(220,227,196,1) 42%, rgba(174,191,118,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(254,254,253,1) 0%,rgba(220,227,196,1) 42%,rgba(174,191,118,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=0 ); /* IE6-9 */
+
+}
+
+.addd {
+        border: 2px solid black;
+}
+p {
+        font-family: 'Grey Qo', cursive;
+        font-size: 20px;
+}
+
+img {
+        display: block;
+        margin: 0 auto;
+}
+
+.fff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+}
+
+.film {
+        display: flex;
+        width: auto;
+        height: auto;
+}
+
+.fffff {
+        
+}
+
+.s2 {
+    display: flex;
+    justify-content: center;
+}
